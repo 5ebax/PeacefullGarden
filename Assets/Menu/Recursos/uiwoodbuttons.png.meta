@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: d44103ac6ef0db746b07bed3013080b1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uiwoodbuttons_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 3142
+        width: 1835
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0cc3c1e5641934f955eb4edf2113a8
+      internalID: -2050161279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_1
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 3165
+        width: 1620
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3051b5a123a84698a22ca1a2280d2
+      internalID: -2035775966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2599
+        width: 444
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40094b174b72b4d49ba90e1e93a459c2
+      internalID: 2144393052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_3
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2599
+        width: 444
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d317d6048e45c147970975bbb500156
+      internalID: -1594183499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_4
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2600
+        width: 444
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7870190cf9a14d44d97bc3725fc4e0c3
+      internalID: 1077934112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_5
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 2599
+        width: 445
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed8ecbcfb67b2244b3c430002c359d1
+      internalID: -401696548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_6
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2856
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13d891d0227e1f42a8aa077ce759b60
+      internalID: 112532362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2599
+        width: 450
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80790d0b22c3a045af829cc2b7468ba
+      internalID: 603820062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_8
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 2599
+        width: 443
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa0566e5a6b03344984a8ab5f1c70ec
+      internalID: -2085614659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_9
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 2599
+        width: 450
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf76cac5368304046ae27eac3920570f
+      internalID: 1029960977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2031
+        width: 468
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ca31010830e664887d3206371e193d
+      internalID: 1605847017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_11
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2030
+        width: 467
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b65925f64f6404dac1e257e93165fa
+      internalID: 52561262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_12
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2031
+        width: 468
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40bb507def231d42878dd0cb4549669
+      internalID: -1733136395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_13
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 2032
+        width: 475
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386aea116e8805343a7d39aa1dd744bd
+      internalID: 71965127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_14
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 2031
+        width: 469
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f477ae50ad8ce1b4bb20950c05e1c42a
+      internalID: 1607630326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_15
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 2030
+        width: 467
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274d935fa88b6a9409aa42e1bdef0c35
+      internalID: 996224331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_16
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 2032
+        width: 474
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cba75f29972b4c4282a52e67a5ce0c0
+      internalID: 967398953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1502
+        width: 538
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b1671460d525240a49b827631ff26f
+      internalID: -943576225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1503
+        width: 539
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593e253733e553546b35bb084aa4f161
+      internalID: 355784504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_19
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1503
+        width: 538
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49950696aad32c4489075793eae1ec82
+      internalID: -612366376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_20
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 1479
+        width: 403
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6289774ea6cd8c4492b7c2a840b5085
+      internalID: -1612793523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_21
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 1494
+        width: 450
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ab7578b72ce174097282ec53b50ae3
+      internalID: -169216559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_22
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 1494
+        width: 442
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3921cc4853c00c74bb5533edd3cc6d65
+      internalID: 836312656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1151
+        width: 1875
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de11f9a981e75046b573e48161acea3
+      internalID: 1384191576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_24
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 951
+        width: 396
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a4dd083a0aed14686860d0a431f39d
+      internalID: -2069517126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_25
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 927
+        width: 467
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692e4e9c4e08cb645a69c4eab3f47ff7
+      internalID: 858249232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_26
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 927
+        width: 474
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116fed4a511267042900eb37878916bc
+      internalID: 58262922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 855
+        width: 1875
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8c04abb20085e4d96246dc7a05ed8c
+      internalID: -1530870311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_28
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 550
+        width: 1875
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fd81f7483cbe14f85b4b51cfbe8369
+      internalID: -2115830750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_29
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 246
+        width: 1618
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ea42260c0437f479cae2fe935feafd
+      internalID: -731937311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_30
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 736
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707599b6ba4435240b644f0620d4c64a
+      internalID: 1748381954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiwoodbuttons_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 254
+        width: 1875
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d2d07155270f84e992319d98424dbf
+      internalID: -127309195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      uiwoodbuttons_2: 2144393052
+      uiwoodbuttons_27: -1530870311
+      uiwoodbuttons_13: 71965127
+      uiwoodbuttons_23: 1384191576
+      uiwoodbuttons_10: 1605847017
+      uiwoodbuttons_20: -1612793523
+      uiwoodbuttons_1: -2035775966
+      uiwoodbuttons_28: -2115830750
+      uiwoodbuttons_21: -169216559
+      uiwoodbuttons_26: 58262922
+      uiwoodbuttons_30: 1748381954
+      uiwoodbuttons_11: 52561262
+      uiwoodbuttons_9: 1029960977
+      uiwoodbuttons_6: 112532362
+      uiwoodbuttons_22: 836312656
+      uiwoodbuttons_29: -731937311
+      uiwoodbuttons_3: -1594183499
+      uiwoodbuttons_16: 967398953
+      uiwoodbuttons_25: 858249232
+      uiwoodbuttons_8: -2085614659
+      uiwoodbuttons_24: -2069517126
+      uiwoodbuttons_12: -1733136395
+      uiwoodbuttons_5: -401696548
+      uiwoodbuttons_18: 355784504
+      uiwoodbuttons_4: 1077934112
+      uiwoodbuttons_14: 1607630326
+      uiwoodbuttons_17: -943576225
+      uiwoodbuttons_19: -612366376
+      uiwoodbuttons_0: -2050161279
+      uiwoodbuttons_15: 996224331
+      uiwoodbuttons_7: 603820062
+      uiwoodbuttons_31: -127309195
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

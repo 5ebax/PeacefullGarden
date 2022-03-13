@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: c96d2429443e37349beae429008af43e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 750
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProtectorBackRun_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 98
+        width: 832
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df6486c729f4c24fa498e5df536ab65
+      internalID: -817155902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_4
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 80
+        width: 889
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3317e5aa510c84ea10bfffdad978fe
+      internalID: -1159330475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_7
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 80
+        width: 826
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdc799c71bf045488e58b6240627e5c
+      internalID: -608184344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_10
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 80
+        width: 829
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ee14eb7920bba4e83daa454d1d7b28
+      internalID: 588663093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_13
+      rect:
+        serializedVersion: 2
+        x: 4566
+        y: 90
+        width: 820
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93a569f91f71804bbc618c5c556c2ea
+      internalID: -127260972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_16
+      rect:
+        serializedVersion: 2
+        x: 5673
+        y: 140
+        width: 814
+        height: 1033
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509da46b52c77c4484030f33b414d91
+      internalID: -2113750294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_19
+      rect:
+        serializedVersion: 2
+        x: 6781
+        y: 90
+        width: 826
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8e62bf64dd69d4f994966081b71bf9
+      internalID: 836535620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_22
+      rect:
+        serializedVersion: 2
+        x: 7879
+        y: 80
+        width: 836
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b123a13d0cecd9489a9c93956d53fbe
+      internalID: -312209332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_25
+      rect:
+        serializedVersion: 2
+        x: 8982
+        y: 75
+        width: 848
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d075b4c26b5b44f9810ddff60cd11e
+      internalID: -41299947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_28
+      rect:
+        serializedVersion: 2
+        x: 10072
+        y: 85
+        width: 884
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8b3d211b60d2c4899e934fde5708e3
+      internalID: -811270224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_31
+      rect:
+        serializedVersion: 2
+        x: 11204
+        y: 95
+        width: 825
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bbf79ad1adb4c4c917dad8b570bfcc
+      internalID: -1201256560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectorBackRun_34
+      rect:
+        serializedVersion: 2
+        x: 12319
+        y: 146
+        width: 808
+        height: 1033
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a17c1659d1d3844b74a401193f6e97
+      internalID: 1394623294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ProtectorBackRun_1: -817155902
+      ProtectorBackRun_2: -1507321426
+      ProtectorBackRun_3: 978713184
+      ProtectorBackRun_12: 1794225222
+      ProtectorBackRun_35: 206809103
+      ProtectorBackRun_39: -1093064927
+      ProtectorBackRun_15: 1844396827
+      ProtectorBackRun_13: -127260972
+      ProtectorBackRun_27: -689775731
+      ProtectorBackRun_21: 7437726
+      ProtectorBackRun_18: -1677581503
+      ProtectorBackRun_34: 1394623294
+      ProtectorBackRun_6: 1665725876
+      ProtectorBackRun_33: -1369200390
+      ProtectorBackRun_5: -1794331208
+      ProtectorBackRun_26: 1926171243
+      ProtectorBackRun_40: 331057567
+      ProtectorBackRun_30: -713408183
+      ProtectorBackRun_32: 1994275702
+      ProtectorBackRun_9: -1757687514
+      ProtectorBackRun_19: 836535620
+      ProtectorBackRun_41: 1316464085
+      ProtectorBackRun_36: -1647126643
+      ProtectorBackRun_31: -1201256560
+      ProtectorBackRun_43: 1796038278
+      ProtectorBackRun_10: 588663093
+      ProtectorBackRun_4: -1159330475
+      ProtectorBackRun_23: -1688758926
+      ProtectorBackRun_20: 1194969093
+      ProtectorBackRun_8: -254895054
+      ProtectorBackRun_14: -810275314
+      ProtectorBackRun_0: -1048793326
+      ProtectorBackRun_42: 967105362
+      ProtectorBackRun_37: -1374674687
+      ProtectorBackRun_16: -2113750294
+      ProtectorBackRun_29: 44805441
+      ProtectorBackRun_7: -608184344
+      ProtectorBackRun_28: -811270224
+      ProtectorBackRun_24: -1294307880
+      ProtectorBackRun_38: -195094288
+      ProtectorBackRun_25: -41299947
+      ProtectorBackRun_17: -784051635
+      ProtectorBackRun_11: 1410478514
+      ProtectorBackRun_22: -312209332
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
