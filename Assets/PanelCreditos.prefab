@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Animaci\xF3n"
+  m_text: Animation
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
   m_sharedMaterial: {fileID: -428069271782671956, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
@@ -201,7 +201,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programaci\xF3n\nGameplay"
+  m_text: 'Gameplay
+
+    Programming'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
   m_sharedMaterial: {fileID: -428069271782671956, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
@@ -935,7 +937,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dise\xF1o de niveles\nSonido"
+  m_text: 'Level Design
+
+    Music'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
   m_sharedMaterial: {fileID: -428069271782671956, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
@@ -1070,7 +1074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programaci\xF3n"
+  m_text: Programming
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
   m_sharedMaterial: {fileID: -428069271782671956, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
@@ -1205,7 +1209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dise\xF1o\nde personajes\nAnimaci\xF3n\nEdicion de v\xEDdeo"
+  m_text: "Character\nDesign\nAnimation and \nVideo editing"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
   m_sharedMaterial: {fileID: -428069271782671956, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
@@ -1562,7 +1566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programaci\xF3n UI"
+  m_text: UI Programming
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c88dded9234d9c6478e136cc4305d111, type: 2}
   m_sharedMaterial: {fileID: -428069271782671956, guid: c88dded9234d9c6478e136cc4305d111, type: 2}

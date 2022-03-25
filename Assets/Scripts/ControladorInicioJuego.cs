@@ -7,10 +7,13 @@ using UnityEngine.UI;
 public class ControladorInicioJuego : MonoBehaviour
 {
     private AudioManager audioStart;
+    private static ControladorInicioJuego instance;
+    public static ControladorInicioJuego Instance { get { return instance; } }
 
     public bool player1Ready;
     public bool player2Ready;
     public bool gameReady;
+    [HideInInspector] public bool start;
 
     public GameObject canvas;
     public GameObject panelPlayer1;
@@ -27,12 +30,21 @@ public class ControladorInicioJuego : MonoBehaviour
 
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
         audioStart = FindObjectOfType<AudioManager>();
     }
 
     private void Start()
     {
         gameReady = false;
+        start = gameReady;
         Time.timeScale = 0;
     }
 
@@ -75,6 +87,7 @@ public class ControladorInicioJuego : MonoBehaviour
         textoNum1.SetActive(true);
         LeanTween.scale(textoNum1, Vector3.one * 1.5f, 1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true); 
         yield return new WaitForSecondsRealtime(1f);
+        start = gameReady;
 
         Time.timeScale = 1;
         this.gameObject.SetActive(false);

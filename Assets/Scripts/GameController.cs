@@ -34,14 +34,19 @@ public class GameController : MonoBehaviour
     private float objectHeight;
     private bool panelControlesVisible;
     private bool panelCreditosVisible;
+    private bool gameReady;
     private AudioManager audioPlayer1;
 
     [Header("Menú y controles")]
     [SerializeField] private GameObject panelControles;
     [SerializeField] private GameObject panelCreditos;
+    [SerializeField] private GameObject panelVictory;
+    [SerializeField] private GameObject victoryMenu;
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject deathMenu;
     [SerializeField] private Image imagenFadeOut;
+    [SerializeField] private Image win;
+    [SerializeField] private Animator winAnim;
 
     public AnimationCurve m_smoothCurve = new AnimationCurve(new Keyframe[] { new Keyframe(0f, 0f), new Keyframe(1f, 1f) });
     private float m_timerCurrent;
@@ -50,6 +55,9 @@ public class GameController : MonoBehaviour
     /*singelton pattern: con esto podemos acceder al GameController desde cualquier otra clase*/
     private static GameController _gameControllerInstance;
     public static GameController gameControllerInstance { get { return _gameControllerInstance; } }
+
+
+    bool stop = false;
 
     private void Awake()
     {
@@ -97,6 +105,8 @@ public class GameController : MonoBehaviour
             LeanTween.scale(deathMenu, Vector3.one, 1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
             isDead = false;
         }
+        if (!stop)
+            Victory();
     }
 
     private void LateUpdate()
@@ -162,6 +172,7 @@ public class GameController : MonoBehaviour
     {
         if (victoryAchieved)
         {
+            stop = true;
             tilemapDecoBack.gameObject.SetActive(false);
             Debug.Log("GANASTE LOCO");
             Time.timeScale = 0F;
@@ -174,6 +185,7 @@ public class GameController : MonoBehaviour
                 enemy.SetActive(false);
                 Destroy(enemy, 0.5F);
             }
+            StartCoroutine(VictoryIMG());
         }
     }
 
@@ -182,13 +194,24 @@ public class GameController : MonoBehaviour
     //Pausa el juego y activa el menú.
     public void PausarJuego()
     {
-        isPaused = !isPaused;
-        menuPausa.SetActive(isPaused);
-        Time.timeScale = isPaused ? 0f : 1f;
-        if (!isPaused)
+        if (ControladorInicioJuego.Instance.start)
         {
-            //TODO: Controlar animacion ui
+            isPaused = !isPaused;
+            menuPausa.SetActive(isPaused);
+            Time.timeScale = isPaused ? 0f : 1f;
+            if (!isPaused)
+            {
+                //TODO: Controlar animacion ui
+            }
         }
+    }
+
+    IEnumerator VictoryIMG()
+    {
+        win.gameObject.SetActive(true);
+        winAnim.Play("Appear");
+        yield return new WaitForSecondsRealtime(3F);
+        panelVictory.SetActive(true);
     }
 
     public void CargarJuego()
@@ -203,21 +226,23 @@ public class GameController : MonoBehaviour
     }
     public void CargarControlesInverso()
     {
-        LeanTween.moveLocalX(pauseMenu, 0, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
+        LeanTween.moveLocalX(victoryMenu, 0, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
         LeanTween.moveLocalX(panelControles, -2000, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
+        LeanTween.moveLocalX(pauseMenu, panelControlesVisible ? 0 : -500, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
         panelControlesVisible = false;
     }
 
     public void CargarCreditos()
     {
-        LeanTween.moveLocalX(panelCreditos, panelCreditosVisible ? -2000 : 0, 0.1f).setEase(LeanTweenType.linear);
-        LeanTween.moveLocalX(pauseMenu, panelCreditosVisible ? 0 : 2000, 0.1f).setEase(LeanTweenType.linear);
+        LeanTween.moveLocalX(panelCreditos, panelCreditosVisible ? -2000 : 0, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
+        LeanTween.moveLocalX(victoryMenu, panelCreditosVisible ? 0 : 2000, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
         panelCreditosVisible = !panelCreditosVisible;
     }
     public void CargarCreditosInverso()
     {
-        LeanTween.moveLocalX(pauseMenu, 0, 0.1f).setEase(LeanTweenType.linear);
-        LeanTween.moveLocalX(panelCreditos, -2000, 0.1f).setEase(LeanTweenType.linear);
+        LeanTween.moveLocalX(pauseMenu, 0, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
+        LeanTween.moveLocalX(panelCreditos, -2000, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
+        LeanTween.moveLocalX(victoryMenu, panelCreditosVisible ? 0 : -2000, 0.1f).setEase(LeanTweenType.linear).setIgnoreTimeScale(true);
         panelCreditosVisible = false;
     }
 
@@ -255,6 +280,5 @@ public class GameController : MonoBehaviour
         //Application.Quit();
     }
     #endregion
-
-    #endregion
+#endregion
 }
